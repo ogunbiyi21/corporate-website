@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #f54c1e;
+  --color-secondary: #f55529;
+  --color-accent: #fd5c30;
+  --color-background: #031333;
+  --color-text: #fff;
+  --color-text-secondary: #000000;
+  --font-family: "space Grotesk", sans-serif;
+  --font-size-base: 16px;
+  --font-size-large: 24px;
+  --font-size-small: 12px;
+}
