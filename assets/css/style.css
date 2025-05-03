@@ -5,7 +5,7 @@
 }
 /* Navigation bar styles */
 header {
-  padding: 20px 50px;
+  padding: 10px 100px;
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -20,6 +20,7 @@ header nav a.active,
 header nav a:hover {
   border-bottom: 1px solid var(--color-primary);
   color: var(--color-secondary);
+  transition-duration: 0.5ms;
 }
 .btn #btn {
   padding: 10px 15px;
@@ -43,7 +44,7 @@ header nav a:hover {
   justify-content: space-between;
   align-items: center;
   height: 80vh;
-  padding: 0 50px;
+  padding: 0 100px;
   background: var(--color-background);
   color: var(--color-text);
 }
@@ -72,3 +73,89 @@ header nav a:hover {
   color: var(--color-text);
 }
 /* Hero section styles */
+
+/* Care Features Styles */
+.care-features {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+  padding: 15rem auto;
+}
+.care-features p#focused-title {
+  font-size: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.care-features h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.care-features .care-features-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem auto;
+  padding: 0 100px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.care-features .care-features-tools .col {
+  flex: 1;
+  padding: 0 20px;
+}
+.care-features .care-features-tools .col img {
+  width: 15%;
+  height: 15%;
+  margin-bottom: 20px;
+}
+.care-features .care-features-tools .col h5 {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.care-features .care-features-tools .col p {
+  font-size: 12px;
+  line-height: 2;
+}
+/* Care Features Styles */
+
+/* About styles */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  margin: 5rem auto;
+  gap: 15px;
+  /* flex-wrap: wrap; */
+}
+.about .about-text {
+  max-width: 550px;
+}
+.about .about-text p#focused-title {
+  font-size: 15px;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  color: var(--color-primary);
+}
+.about .about-text h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.about .about-text p#focused-text {
+  font-size: 13px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.about .about-text #btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  background: var(--color-primary);
+  border: none;
+  color: var(--color-text);
+}
