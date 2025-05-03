@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="description" content="" />
+    <!-- <meta http-equiv="refresh" content="0; url=http://example.com" /> -->
+    <link
+      el="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.jfif"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700"
+      rel="stylesheet"
+    />
+    <title>Finest Mart App</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border box;
+        font-family: "space Grotesk", sans-serif;
+      }
+      header {
+        background-color: #e4dede;
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header nav a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: #252020;
+      }
+      nav a.active,
+      nav a:hover {
+        border-bottom: none;
+        color: #000;
+      }
+      .btn #btn1,
+      #btn2 {
+        padding: 10px 15px;
+        margin: -right 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn #btn {
+        background-color: #e4dede;
+        color: rgb(10, 10, 10);
+        border: 1px solid red;
+      }
+      .btn #btn {
+        background-color: rgb(243, 2, 2);
+        padding: 10px 15px;
+        color: #0a0a0a;
+        border: none;
+      }
+      .btn #btn1 :hover {
+        background-color: red;
+        padding: 20px 15px;
+      }
+      .btn #btn2 :hover {
+        background-color: #e4dede;
+        padding: 10px 15px;
+        color: rgb(46, 37, 37);
+      }
+      .btn #btn2 :hover {
+        background-color: red;
+        color: #b40404;
+        border: none;
+      }
+
+      table,
+      th,
+      td,
+      tr {
+        border-collapse: collapse;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navbar begins-->
+    <header>
+      <h3>
+        <a href="navar bar.html"> Finest<span>Mart</span></a>
+      </h3>
+      <nav>
+        <a class="active" href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Sales</a>
+        <a href="#">FAQs</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="btn">
+        <button id="btn1">Sign in</button><a></a>
+        <button id="btn2">Sign up</button><a></a>
+        <i class="fas fa-shopping-bag"></i>
+      </div>
+    </header>
+
+    <!-- Table showing details of users -->
+    <table>
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Name</th>
+          <th>Country</th>
+          <th>Football club</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>Ajayi Kowope</td>
+          <td>Nigeria</td>
+          <td>
+            <!-- Chelsea <br />
+            Arsenal -->
+            <form>
+              <input type="checkbox" name="club" id="" />
+              <label for="club">Chelsea</label> <br />
+              <input type="checkbox" name="club" id="" />
+              <label for="club">Arsenal</label>
+            </form>
+            <!-- <ul style="list-style: none">
+              <li>Chelsea</li>
+              <li>Arsenal</li>
+            </ul> -->
+            <!-- <p>Chelsea</p>
+            <p>Arsenal</p> -->
+          </td>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Ajayi Kowope</td>
+          <td>Nigeria</td>
+          <td>Chelsea</td>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Ajayi Kowope</td>
+          <td>Nigeria</td>
+          <td>Chelsea</td>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Ajayi Kowope</td>
+          <td><a href="navbar.html">Nigeria</a></td>
+          <td>
+            Chelsea
+            <img src="./assets/images/" alt="" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p id="text">Adebanjo is here</p>
+
+    <script>
+      document.getElementById("text").innerHTML = "Temitope is in class today!";
+    </script>
+  </body>
+</html>

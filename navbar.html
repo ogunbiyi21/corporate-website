@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700"
+      rel="stylesheet"
+    />
+    <title>Finest Mart App</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Space Grotesk", sans-serif;
+      }
+      header {
+        background-color: #e4dede;
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header nav a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: #252020;
+      }
+      nav a.active,
+      nav a:hover {
+        border-bottom: 2px solid #000;
+      }
+      header h3 a {
+        text-decoration: none;
+        color: #000;
+      }
+      h3 span {
+        color: #f38f0b;
+      }
+      .btn #btn1,
+      #btn2 {
+        padding: 10px 15px; 
+        margin-right: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn #btn1 {
+        background-color: #e4dede;
+        color: red;
+        border: 1px solid red;
+      }
+      .btn #btn1:hover {
+        background-color: red;
+        padding: 10px 15px;
+        color: #000;
+        border: none;
+      }
+      .btn #btn2:hover {
+        background-color: #e4dede;
+        padding: 10px 15px;
+        color: red;
+        border: 1px solid red;
+      }
+      .btn #btn2 {
+        background-color: red;
+        color: #000;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar begins -->
+    <header>
+      <h3>
+        <a href="navbar.html"> Finest<span>Mart</span></a>
+      </h3>
+      <nav>
+        <a class="active" href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Sales</a>
+        <a href="#">FAQs</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="btn">
+        <button id="btn1">Sign in</button>
+        <button id="btn2">Sign Up</button>
+        <i class="fas fa-shopping-bag"></i>
+      </div>
+    </header>
+  </body>
+</html>

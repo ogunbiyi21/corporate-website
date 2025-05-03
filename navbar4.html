@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>finest Mart App</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: space grotesk, sans-serif;
+      }
+      header {
+        background-color: rgb(26, 156, 156);
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header nav a {
+        padding: 0px 20px;
+        text-decoration: none;
+        color: black;
+      }
+      nav a.active nav a :hover {
+        border-bottom: 2px solid brown;
+      }
+      header h3 a {
+        text-decoration: none;
+        color: black;
+      }
+      h3 span {
+        color: rgb(57, 39, 75);
+      }
+      .btn #btn1,
+      #btn2 {
+        background-color: blue;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn #btn1 {
+        background-color: rgb(121, 19, 19);
+        color: rgba(5, 0, 0, 0.973);
+        border: 1px solid black;
+      }
+      .btn #bnt :hover {
+        background-color: brown;
+        padding: 10px 15px;
+        color: black;
+        border: none;
+      }
+      .btn #btn2 :hover {
+        background-color: black;
+        padding: 10px 15px;
+        color: brown;
+        border: none;
+      }
+      .btn #btn2 {
+        background-color: black;
+        color: brown;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!---navbar begins-->
+    <header>
+      <h3>
+        <a href="navbar.html">finest<span>Mart</span></a>
+      </h3>
+      <a class="active" href="#">Home</a>
+      <a href="#">Categories</a>
+      <a href="#">Name</a>
+      <a href="#">FAQs</a>
+      <a href="#">Contact</a>
+      <a href="#">About us</a>
+    </header>
+    <div class="btn">
+      <botton id="btn1">Sign in</botton>
+      <botton id="btn2">Sign up</botton>
+      <i class="fas -fa -shopping- bag"></i>
+    </div>
+  </body>
+</html>
