@@ -46,7 +46,7 @@ header nav a:hover {
   align-items: center;
   color: #fff;
   text-align: center;
-  background-image: url("/assets/images/Group 14.png");
+  background-image: url("//assets/images/Group 14.png");
 }
 /* .best .best-card {
   max-width: 600px;
@@ -115,7 +115,7 @@ header nav a:hover {
   text-align: center;
 }
 .col1 {
-  background-image: url("/assets/images/Rectangle\ 4.png");
+  background-image: url("//assets/images/Rectangle\ 4.png");
   justify-content: right;
   padding: 50px 40px;
   align-items: right;
@@ -227,7 +227,7 @@ header nav a:hover {
   padding: 8px 20px;
 }
 .ready {
-  background-image: url("/assets/images/last\ picture.jpg");
+  background-image: url("//assets/images/last\ picture.jpg");
   padding: 10px 20px;
   align-items: center;
   color: #f8f3f3;
