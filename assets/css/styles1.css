@@ -284,3 +284,104 @@ header nav a:hover {
   justify-content: space-between;
   align-items: center;
 }
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header nav {
+    margin: 10px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header nav a {
+    margin: 5px 0;
+    display: none;
+  }
+  .best {
+    padding: 60px 10px;
+    background-size: cover;
+  }
+  .best .text h3 {
+    font-size: 24px;
+  }
+  .card-section,
+  .solution-section,
+  .product,
+  .last-phase,
+  .latest {
+    flex-direction: column;
+    padding: 10px 5px;
+    margin: 20px 0;
+    max-width: 100%;
+    row-gap: 20px;
+  }
+  .col,
+  .col1 {
+    width: 100% !important;
+    min-width: 0;
+    padding: 15px 5px;
+    box-sizing: border-box;
+  }
+  .col1 {
+    height: auto;
+    padding: 30px 10px;
+  }
+  .IT-solution,
+  .images h3,
+  .finance,
+  .name,
+  .ready h3,
+  .ready p,
+  .Latest-news {
+    padding: 0 10px !important;
+    max-width: 100% !important;
+  }
+  .Satisfied {
+    flex-direction: column;
+    padding: 10px 0;
+    margin: 20px 0;
+    row-gap: 20px;
+  }
+  .Satisfied .satisfied-text {
+    min-height: unset;
+    padding: 10px;
+  }
+  .col-img {
+    transform: none;
+    margin: 0 auto;
+  }
+  .ready {
+    padding: 10px 5px;
+    background-size: cover;
+  }
+  .ready h3 {
+    font-size: 22px;
+    padding: 10px 0 !important;
+  }
+  .ready p {
+    font-size: 14px;
+    padding: 10px 0 !important;
+    margin-bottom: 20px;
+  }
+  .ready button {
+    margin: 20px auto;
+    width: 100%;
+  }
+  .bottom {
+    flex-direction: column;
+    padding: 10px 5px;
+    margin: 10px 0;
+    row-gap: 10px;
+  }
+  .fa-twitter {
+    padding: 0 10px;
+  }
+  .blog {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
