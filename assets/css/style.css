@@ -382,7 +382,7 @@ header nav a:hover {
 .newsletter-subscribe {
   background: var(--color-background-gray);
   margin: 50px 100px;
-  width: 100%;
+  /* width: 100%; */
   padding: 50px 30px;
   justify-content: center;
   align-items: center;
