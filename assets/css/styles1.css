@@ -115,7 +115,7 @@ header nav a:hover {
   text-align: center;
 }
 .col1 {
-  background-image: url("//assets/images/Rectangle\ 4.png");
+  background-image: url("/assets/images/Rectangle\ 4.png");
   justify-content: right;
   padding: 50px 40px;
   align-items: right;
