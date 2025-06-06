@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "space Grotesk", sans-serif;
+}
+/* Navigation bar styles */
+header {
+  padding: 10px 50px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}

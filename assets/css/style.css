@@ -133,7 +133,6 @@ header nav a:hover {
   padding: 0 100px;
   margin: 5rem auto;
   gap: 15px;
-  /* flex-wrap: wrap; */
 }
 .about .about-text {
   max-width: 550px;
@@ -239,7 +238,7 @@ header nav a:hover {
   pointer-events: none;
 }
 
-.service-cards .col .col-text,
+service-cards .col .col-text,
 .project-cards .col .col-text {
   position: absolute;
   bottom: 0;
@@ -253,7 +252,7 @@ header nav a:hover {
   box-sizing: border-box;
   margin-bottom: 50px;
 }
-.service-cards .col .col-text h4,
+. .service-cards .col .col-text h4,
 .project-cards .col .col-text h4 {
   margin-bottom: 20px;
   font-weight: 500;
