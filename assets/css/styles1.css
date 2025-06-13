@@ -384,4 +384,45 @@ header nav a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
+  .packages .col img {
+    width: 200px;
+    height: 200px;
+  }
+  .packages .col img#spec {
+    width: 200px !important;
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  header {
+    margin: 10px 5px;
+    padding: 0;
+  }
+  header nav a {
+    display: none;
+  }
+  header .btn button {
+    display: none;
+  }
+  .card-section,
+  .solution-section,
+  .IT-solution,
+  .mobile,
+  .product,
+  .Satisfied {
+    display: block;
+  }
+  .IT-solution {
+    margin: 10px 5px;
+  }
+  .card-section .col {
+    margin-bottom: 15px;
+  }
+  .Satisfied .col-img {
+    margin: 0;
+  }
+  .satisfied-text {
+    padding: 10px;
+    margin: 0;
+  }
 }
