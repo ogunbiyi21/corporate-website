@@ -15,6 +15,19 @@
     />
 
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Yesteryear&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700"
       rel="stylesheet"
     />
@@ -22,31 +35,12 @@
   </head>
 
   <body>
-    <!--nav nar begins-->
-    <div class="Travel">
-      <header>
-        <div class="logo">
-          <img src="/assets/images/logo.png" alt="logo" />
-        </div>
-        <nav>
-          <a class="active" href="#">Home</a>
-          <a href="#">Service</a>
-          <a href="#">About</a>
-          <a href="#">Service</a>
-          <a href="#">Upcoming packages</a>
-        </nav>
-        <div class="btn">
-          <button id="btn">Get in Touch</button>
-        </div>
-      </header>
-      <h3>Read about us</h3>
-    </div>
-    <!--nav bar ends-->
-
     <!-- Navbar 2 begins -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="about.html">
+          <img src="/assets/images/logo.png" alt="logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -69,13 +63,20 @@
         <button type="button" class="btn btn-danger">Get in Touch</button>
       </div>
     </nav>
-    <!-- Navbar 2 ends -->
+
+    <!-- hero -->
+    <div class="container-fluid hero text-white text-center">
+      <p>READ</p>
+      <h3>about us</h3>
+    </div>
+    <!-- hero section ends -->
+    <!-- Navbar ends -->
 
     <!-- Promotion section -->
-    <div class="container">
-      <div class="row align-items-center text-center">
-        <div class="col">
-          <h4>PROMOTION</h4>
+    <div class="container promotion mx-auto my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h6>PROMOTION</h6>
           <h3>We Provide You Best Europe Sightseeing Tours</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cum,
@@ -85,70 +86,94 @@
           </p>
           <button class="btn btn-danger">View Packages</button>
         </div>
-        <div class="col">
-          <img src="/assets/images/Ellipse 626.png" width="400" height="400" />
+        <div class="col-md-6 img-col">
+          <img
+            src="/assets/images/promotion-round-img.png"
+            class="img-fluid"
+            width="400"
+            height="400"
+          />
         </div>
       </div>
     </div>
 
-    <!-- <div class="promotion">
-      <div class="provide">
-        
-      </div>
-      <div class="ellipse">
-       
-      </div>
-    </div> -->
-    <!--promotion end-->
-
-    <div class="wanderlust">
-      <div class="col">
-        <img src="/assets/images/ant-design_play-circle-filled.png" />
-        <h1>Wanderlust</h1>
-      </div>
+    <div class="container-fluid text-center text-white py-5 wanderlust">
+      <h1 class="my-5 text">
+        Wanderlust <a href="#"> <i class="fas fa-play-circle icon"></i></a>
+      </h1>
     </div>
 
     <!--wanderlust end-->
 
-    <div class="trend">
-      <div class="paris">
-        <img src="/assets/images/about-us-img-2 1.png" />
-      </div>
-      <div class="popular">
-        <h4>TREND</h4>
-        <h2>Our Popular Tour Plans</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illum
-          accusantium earum voluptatem tempore pariatur quis corrupti sint
-          assumenda, nemo unde animi, repellendus cupiditate excepturi error
-          harum, eaque fugit! Dolorum.
-        </p>
-        <img src="/assets/images/new.png" />
-        <img src="/assets/images/new 2.png" />
-        <img src="/assets/images/new 3.png" />
-      </div>
-      <div class="plate">
-        <img src="/assets/images/image 919.png" />
+    <div class="container popular-tour my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="/assets/images/about-us-img-2 1.png" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <h6>TREND</h6>
+            <h3>Our Popular Tour Plans</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+              reprehenderit cum. Repellendus perspiciatis esse nihil!
+            </p>
+          </div>
+          <div class="row">
+            <div class="col">
+              <!-- <div class="percent text-center my-2"> -->
+              <img
+                src="/assets/images/vacation.png"
+                width="80"
+                height="80"
+                alt=""
+                style="position: absolute"
+              />
+              <!-- </div> -->
+              <h4 style="position: relative">78%</h4>
+              <h3>Vacation</h3>
+            </div>
+            <div class="col">
+              <h4 class="percent">78%</h4>
+              <h3>Vacation</h3>
+            </div>
+            <div class="col">
+              <h4 class="percent">78%</h4>
+              <h3>Vacation</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!--trend ends-->
 
     <div class="container packages">
       <div class="row">
-        <div class="col gy-3">
-          <img src="/assets/images/number 1.png" />
-          <img src="/assets/images/number 2.png" />
+        <div class="col">
+          <div class="my-3">
+            <img src="/assets/images/number 1.png" />
+          </div>
+          <div class="my-3">
+            <img src="/assets/images/number 3.png" />
+          </div>
         </div>
-        <div class="col gy-3">
-          <img src="/assets/images/number 3.png" />
-          <img src="/assets/images/number 4.png" />
+        <div class="col">
+          <div class="my-3">
+            <img src="/assets/images/number 2.png" />
+          </div>
+          <div class="my-3">
+            <img src="/assets/images/number 4.png" />
+          </div>
         </div>
-        <div class="col gy-3">
+        <div class="col">
           <img src="/assets/images/number 5.png" />
         </div>
-        <div class="col gy-3">
-          <img src="/assets/images/number 6.png" />
-          <img src="/assets/images/number 7.png" />
+        <div class="col">
+          <div class="my-3">
+            <img src="/assets/images/number 6.png" />
+          </div>
+          <div class="my-3">
+            <img src="/assets/images/number 7.png" />
+          </div>
         </div>
       </div>
       <div class="row">
@@ -166,9 +191,133 @@
         </div>
       </div>
     </div>
-    <div class="clients">
-      <div class="ton">
-        <img src="/assets/images/Testimonials.png" />
+
+    <!-- Testimonials -->
+    <div class="bg-light">
+      <div class="container py-5">
+        <h2 class="text-center mb-5">What Our Customers Say</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div
+              id="testimonialCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-card p-4 p-md-5">
+                    <i
+                      class="bi bi-quote quote-icon position-absolute top-0 start-0 mt-3 ms-3"
+                    ></i>
+                    <div class="text-center mb-4">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/32.jpg"
+                        alt="Avatar"
+                        class="avatar mb-3"
+                      />
+                      <h5 class="mb-1">Emma Thompson</h5>
+                      <p class="text-muted mb-0">Marketing Manager</p>
+                    </div>
+                    <p class="lead text-center mb-0">
+                      "This product has completely transformed our workflow.
+                      It's intuitive, powerful, and a joy to use every day. I
+                      can't imagine running our business without it now."
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-card p-4 p-md-5">
+                    <i
+                      class="bi bi-quote quote-icon position-absolute top-0 start-0 mt-3 ms-3"
+                    ></i>
+                    <div class="text-center mb-4">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/47.jpg"
+                        alt="Avatar"
+                        class="avatar mb-3"
+                      />
+                      <h5 class="mb-1">Michael Chen</h5>
+                      <p class="text-muted mb-0">Software Engineer</p>
+                    </div>
+                    <p class="lead text-center mb-0">
+                      "The level of customer support is outstanding. Whenever
+                      I've had a question or issue, the team has been quick to
+                      respond and always goes above and beyond to help."
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-card p-4 p-md-5">
+                    <i
+                      class="bi bi-quote quote-icon position-absolute top-0 start-0 mt-3 ms-3"
+                    ></i>
+                    <div class="text-center mb-4">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/65.jpg"
+                        alt="Avatar"
+                        class="avatar mb-3"
+                      />
+                      <h5 class="mb-1">Sophia Rodriguez</h5>
+                      <p class="text-muted mb-0">Small Business Owner</p>
+                    </div>
+                    <p class="lead text-center mb-0">
+                      "As a small business owner, I was hesitant to invest in
+                      new software, but this has paid for itself many times
+                      over. It's been a game-changer for my company's
+                      efficiency."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
