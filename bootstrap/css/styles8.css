@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "space Grotesk", sans-serif;
+}
+.great {
+  background-image: url("/assets/images/background\ tp.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no no-repeat;
+}
